@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="itemMenu">
+                    <a href="../index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li class="itemMenu">
+                    <a href="productos.html">
+                        Productos
+                    </a>
+                </li>
+                <li class="itemMenu">
+                    <a href="ofertas.html">
+                        Ofertas
+                    </a>
+                </li>
+                <li class="itemMenu">
+                    <a href="novedades.html">
+                        Novedades
+                    </a>
+                </li>
+                <li class="itemMenu">
+                    <a href="quienessomos.html">
+                        Quienes somos
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="tituloSubtitulo">
+            <h1>
+                <a href="../index.html">
+                    Asetusta
+                </a>
+            </h1>
+            <h2 class="tituloSeccion"> Contacto </h2>
+        </div>
+        <div class="comprasBusqueda">
+            <div class="busqueda">
+                <input class="cuadroBusqueda" type="text">
+                <a href="#">
+                    <img class="lupa" src="../icons/magnifying-glass.png" alt="imagen de una lupa">
+                </a>
+            </div>
+            <div class="compras">
+                <a href="#">
+                    <img class="imgCarro" src="../icons/shopping-cart.png" alt="imagen de un carro de compras">
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="mainContacto">
+        <div class="formContacto">
+            <form action="submit" method="post">
+                <fieldset class="campoContacto">
+                    <legend class="leyendaContacto">
+                        Escribinos
+                    </legend>
+                    <div class="formElements">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+                    
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" name="mail" placeholder="ejemplo@dominio.com">
+                   
+                        <label for="telefono">Teléfono</label>
+                        <input type="number" id="telefono" name="telefono" placeholder="Incluir código de área">
+        
+                        <label for="mensaje">Mensaje
+                        </label>
+                        <textarea class="mensaje" name="mensaje" id="mensaje" cols="50" rows="5" placeholder="Escribinos tu consulta"></textarea>
+                    </div>
+                    <div class="divEnviar">
+                        <button type="submit" class="enviarForm"> Enviar </button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="itemsContacto">
+            <img src="../icons/telephone.png" alt="teléfono" class="iconoContacto">
+            <div class="infoContacto">
+                <p>+54 11-2254-8030</p>
+            </div>
+            <img src="../icons/email.png" alt="email" class="iconoContacto">
+            <div class="infoContacto">
+                <p>info@asetusta.com</p>
+            </div>
+            <img src="../icons/pin.png" alt="pin ubicación" class="iconoContacto">
+            <div class="infoContacto">
+                <p>French 3564</p>
+                <p>San Isidro, Buenos Aires</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="divsFooter">
+            <div class="ayuda">
+                <h4>
+                    Ayuda
+                </h4>
+                <ul>
+                    <li>
+                        <a href="faq.html">Preguntas frecuentes</a>
+                    </li>
+                    <li>
+                        <a href="">Términos y condiciones</a>
+                    </li>
+                    <li>
+                        <a href="">Envíos</a>
+                    </li>
+                    <li>
+                        <a href="">Formas de pago</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nosotros">
+                <h4>
+                    Nosotros
+                </h4>
+                <ul>
+                    <li>
+                        <a href="contacto.html">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="mailto:info@asetusta.com">Consultas</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="redesSociales">
+                <h4 class="titRedes">REDES SOCIALES</h4>
+                <div class="linksRedes">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img class="redes facebook" src="../icons/facebook.png" alt="Link a nuestro facebook">
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <img class="redes instagram" src="../icons/instagram.png" alt="Link a nuestro instagram">
+                    </a>
+                    <a href="https://www.pinterest.com" target="_blank">
+                        <img class="redes pinterest" src="../icons/pinterest.png" alt="Link a nuestro pinterest">
+                    </a>
+                    <a class="botonWhatsapp" href="https://web.whatsapp.com" target="_blank">
+                        <img class="redes whatsapp" src="../icons/whatsapp.png" alt="Hablanos por whatsApp">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="credits">
+            <p>® Asetusta 2022 - Todos los derechos reservados</p>
+            <p>design by <a href="mailto:suarezramirof@gmail.com">RFS</a></p>
+        </div>
+    </footer>
+</body>
+</html>
